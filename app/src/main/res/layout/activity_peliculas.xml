@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plataformas" >
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="@android:color/transparent"
+        android:paddingLeft="24dp"
+        />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="28dp"
+        android:layout_margin="16dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/md_theme_light_primaryContainer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="0dp"
+            android:padding="28dp">
+
+
+            <TextView
+                android:id="@+id/SignUpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/playfair_display"
+
+                android:text="@string/tituloPeliculas"
+                android:textColor="@color/md_theme_dark_onTertiary"
+                android:textSize="60sp" />
+
+            <ImageView
+                android:id="@+id/caratula"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerInside"
+
+                android:alpha="1" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/titleField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre Pelicula"> <!--cambiar-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/titleFilm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_theme_light_shadow"
+                    android:layout_marginBottom="10dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/durationField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duracion"> <!--cambiar-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_theme_light_shadow"
+                    android:layout_marginBottom="10dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/genereField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Genero"> <!--cambiar-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/genere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_theme_light_shadow"
+                    android:layout_marginBottom="10dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/calificationField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Calificacion"> <!--cambiar-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_theme_light_shadow"
+                    android:layout_marginBottom="10dp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/insertFilm"
+                android:textColor="@color/md_theme_light_onTertiaryContainer"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Insertar Pelicula"
+
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

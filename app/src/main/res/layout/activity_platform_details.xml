@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonCreateFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insertarPelicula"
+        android:layout_margin="16dp"
+
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageViewPlatformDetail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+
+            android:elevation="12dp"
+
+
+
+
+            android:scaleType="centerCrop"
+
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/plataformNameDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/md_theme_light_shadow"
+        android:padding="8dp"
+        android:elevation="12dp"
+
+        android:text="Platform Name"
+
+        android:textAppearance="?android:textAppearanceMedium"
+
+
+        />
+
+    <TextView
+        android:id="@+id/urlDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        android:padding="8dp"
+        android:elevation="12dp"
+        android:textColor="@color/md_theme_light_shadow"
+        android:text="www.plataforma.com"
+
+
+        android:textAppearance="?android:textAppearanceMedium"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/tituloo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:fontFamily="@font/playfair_display"
+
+        android:gravity="center"
+        android:padding="8dp"
+
+        android:text="@string/PeliculasDisponibles"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/md_theme_light_onTertiaryContainer"
+
+
+        android:textSize="48dp"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPeliculas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
+
+
+
+

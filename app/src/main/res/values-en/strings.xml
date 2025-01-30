@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">misPelisx6920887A</string>
+    <string name="labelMail">Email</string>
+    <string name="labelPassword">Password</string>
+    <string name="login">Log In</string>
+    <string name="maintitle">Portal</string>
+    <string name="createAccount">Don\'t have an account?</string>
+    <string name="buttonCreateAccount">Create Account</string>
+    <string name="SignUpText">Sign Up</string>
+    <string name="label">Email</string>
+    <string name="nameLabel">Name</string>
+    <string name="surnameLabel">Surname</string>
+    <string name="dateLabel">Date</string>
+    <string name="questionLabel">Security Question</string>
+    <string name="option1">Technology</string>
+    <string name="option2">Sports</string>
+    <string name="option3">Social Media</string>
+    <string name="option4">Movies</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="segure">Are you sure you want to delete this item?</string>
+    <string name="errorMailNoExiste">The email you entered does not exist</string>
+    <string name="plataformaInsertada">Platform inserted successfully</string>
+    <string name="todosCamposObligatorios">All fields are mandatory</string>
+    <string name="ingresaNombrePlataforma">Please enter the name of the platform</string>
+    <string name="campoObligatiorio">This field is mandatory</string>
+    <string name="noPlataformas">There are currently no platforms, please insert them</string>
+    <string name="plataformaNoEncontrada">Platform not found</string>
+    <string name="usuarioInsertado">User inserted successfully</string>
+    <string name="errorInsertarUsuario">Error inserting user</string>
+    <string name="seleccionarInteres">Select an interest</string>
+    <string name="iniciarSesion">Log In</string>
+    <string name="notienescuenta">Don\'t have an account?</string>
+    <string name="crearCuenta">Create Account</string>
+    <string name="plataformas">Platform Name</string>
+    <string name="link">Link</string>
+    <string name="insertarPlataforma">Insert Platform</string>
+    <string name="insertarPelicula">Insert Movie</string>
+    <string name="tituloPeliculas">Movies</string>
+    <string name="PeliculasDisponibles">Available Movies</string>
+    <string name="duracionDebe">Duration must be a positive value and rating must be between 0 and 5</string>
+    <string name="seguro">Are you sure you want to delete this item?</string>
+</resources>
